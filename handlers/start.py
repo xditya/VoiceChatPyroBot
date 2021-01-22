@@ -4,7 +4,6 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from helpers import wrap
 from strings import get_string as _
 
-
 @Client.on_message(
     filters.command("start", "/") & filters.private
 )
@@ -14,10 +13,10 @@ def start(client, message):
         _("start_1"),
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton(
-                _("start_2"), switch_inline_query_current_chat="")]]
+                _("start_2"), switch_inline_query_current_chat="")], 
+             [InlineKeyboardButton(text="Join Group ", url="https://t.me/TeleBotHelpChat")]]
         )
     )
-
 
 __help__ = {
     "start": [_("help_start"), False]

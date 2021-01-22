@@ -1,3 +1,5 @@
+Just a custom fork of [the original work.](https://github.com/xditya/VoiceChatPyroBot)
+
 # Pyrogram bot to automate streaming music in voice chats
 
 ## Read this before scrolling down

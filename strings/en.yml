@@ -22,8 +22,8 @@ help_2: "Admin commands:"
 bot: "Bot is updating and restarting..."
 
 # Start
-start_1: "Hi, send me a YouTube link to play it."
-start_2: "Search"
+start_1: "Hi, send me a YouTube link to play it in the voice chat.\nI work only in @TelebBotSupport.\n\n**Do NOT add me to a group." 
+start_2: "Search for a song."
 
 # Inline
 inline_1: "Type a YouTube video title..."
@@ -94,7 +94,7 @@ song_2: "No song is currently playing."
 
 
 # Not for you
-n4u: "This is not for you."
+n4u: "Sudo restricted command."
 
 # Mistake
 mistake: "I assume that was a mistake."
@@ -118,5 +118,5 @@ queue_4: "Queue cleared."
 # YTDL
 ytdl_1: "Downloading..."
 ytdl_2: "Downloaded and scheduled to play at position {0}."
-ytdl_3: "You can't download live vidoes."
+ytdl_3: "You can't download live videos."
 ytdl_4: "You can't download videos longer than {0} minutes."

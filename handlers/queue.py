@@ -47,7 +47,7 @@ def queue(client, message):
         )
         count += 1
 
-    m = message.reply_text("....")
+    m = message.reply_text("`Checking...`")
 
     try:
         m.edit_text(human_queue, disable_web_page_preview=True)
