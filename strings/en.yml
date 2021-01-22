@@ -23,7 +23,7 @@ bot: "Bot is updating and restarting..."
 
 # Start
 start_1: "Hi, send me a YouTube link to play it in the voice chat.\nI work only in @TelebBotSupport.\n\n**Do NOT add me to a group." 
-start_2: "Search for a song."
+start_2: "Search"
 
 # Inline
 inline_1: "Type a YouTube video title..."
